@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 1200px;
+  background-color: aquamarine;
+  font-size: 62.5%;
+  font-family: sans-serif;
+  color: #333;
+}
+
+img {
+  width: 100%;
+}
+
+.nav {
+  background-color: aqua;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.6rem;
+  font-weight: 500;
+  padding: 0.6rem 1rem;
+}
+.name {
+  font-size: 3.2rem;
+  font-weight: 500;
+}
+.links {
+  justify-self: flex-end;
+}
+.links ul {
+  display: flex;
+  list-style-type: none;
+  gap: 1rem;
+}
+
+.brief-introduction {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.brief-introduction-img {
+}
+.brief-introduction-description {
+}
