@@ -6,32 +6,213 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>Daniel's portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
   </head>
   <body>
     <section class="hero">
       <nav class="nav">
         <span class="name">Daniel Du</span>
-        <span class="links"
-          ><ul>
-            <li>About</li>
-            <li>Experience</li>
-            <li>Projects</li>
-            <li>Contact</li>
-          </ul></span
-        >
+        <ul class="links">
+          <li><a href="#" class="link">About</a></li>
+          <li><a href="#" class="link">Experience</a></li>
+          <li><a href="#" class="link">Projects</a></li>
+          <li><a href="#" class="link">Contact</a></li>
+        </ul>
       </nav>
       <div class="brief-introduction">
         <div class="brief-introduction-img">
-          <img src="./src/img/thai-an-E2Yd6K2A3fE-unsplash.jpg" />
+          <img
+            class="img-daniel"
+            src="./src/img/thai-an-E2Yd6K2A3fE-unsplash.jpg"
+          />
         </div>
-        <div class="brief-introduction-description"></div>
+        <div class="brief-introduction-description">
+          <p class="hello">Hello,I'm</p>
+          <p class="name-description">Daniel Du</p>
+          <p class="job">Frontend Developer</p>
+          <p class="downloads">
+            <a href="#">Download CV</a>
+            <a href="#">Contact Info</a>
+          </p>
+          <p class="links-contact">
+            <a href="#"><img class="logo" src="./src/img/GitHub_(4).png" /></a>
+            <a href="#"
+              ><img
+                class="logo logo-linkedin"
+                src="./src/img/Linkedin-Logo-PNG1.png"
+            /></a>
+          </p>
+        </div>
       </div>
     </section>
-    <section class="about-me"></section>
-    <section class="experience"></section>
+    <section class="about-me">
+      <div class="header">
+        <h3>Get To Know More</h3>
+        <h1>About Me</h1>
+      </div>
+
+      <div class="about-info">
+        <img
+          class="info-img"
+          src="./src/img/thai-an-E2Yd6K2A3fE-unsplash.jpg"
+        />
+        <div class="info-container">
+          <ion-icon name="medal" class="info-logo"></ion-icon>
+          <span class="info-title">Experience</span>
+          <span class="info-period">2+ years</span>
+          <span class="info-work">Frontend Development</span>
+        </div>
+        <div class="info-container">
+          <ion-icon name="people" class="info-logo"></ion-icon>
+          <span class="info-title">Education</span>
+          <span class="info-period">Hubei University Bachelors Degree</span>
+          <span class="info-work">&ThinSpace;</span>
+        </div>
+        <div class="info-text">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro vel
+          maiores illo quidem repellendus harum explicabo quae sequi reiciendis
+          facilis, aperiam totam dignissimos suscipit atque. Non inventore
+          similique eos quae. Lorem ipsum dolor sit amet consectetur adipisicing
+          elit. Atque dignissimos debitis quas nulla reiciendis rerum distinctio
+          eveniet perferendis quidem! Enim error quis porro iure laudantium,
+          placeat quibusdam earum illo culpa.
+        </div>
+      </div>
+    </section>
+    <section class="experience">
+      <div class="header">
+        <h3>Get To Know More</h3>
+        <h1>About Me</h1>
+      </div>
+      <div class="experience-info-container">
+        <div class="experience-info">
+          <h2>Frontend Development</h2>
+          <ul>
+            <li>
+              <ion-icon
+                name="checkmark-circle"
+                class="experience-icon"
+              ></ion-icon>
+              <div class="sill">
+                <div class="skill-name">HTML</div>
+                <div class="skill-level">Experienced</div>
+              </div>
+            </li>
+            <li>
+              <ion-icon
+                name="checkmark-circle"
+                class="experience-icon"
+              ></ion-icon>
+              <div class="sill">
+                <div class="skill-name">CSS</div>
+                <div class="skill-level">Experienced</div>
+              </div>
+            </li>
+            <li>
+              <ion-icon
+                name="checkmark-circle"
+                class="experience-icon"
+              ></ion-icon>
+              <div class="sill">
+                <div class="skill-name">SASS</div>
+                <div class="skill-level">Experienced</div>
+              </div>
+            </li>
+            <li>
+              <ion-icon
+                name="checkmark-circle"
+                class="experience-icon"
+              ></ion-icon>
+              <div class="sill">
+                <div class="skill-name">JavaSctipt</div>
+                <div class="skill-level">Experienced</div>
+              </div>
+            </li>
+            <li>
+              <ion-icon
+                name="checkmark-circle"
+                class="experience-icon"
+              ></ion-icon>
+              <div class="sill">
+                <div class="skill-name">TypeScript</div>
+                <div class="skill-level">Experienced</div>
+              </div>
+            </li>
+            <li>
+              <ion-icon
+                name="checkmark-circle"
+                class="experience-icon"
+              ></ion-icon>
+              <div class="sill">
+                <div class="skill-name">Mateial UI</div>
+                <div class="skill-level">Experienced</div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="experience-info">
+          <h2>Backend Development</h2>
+          <ul>
+            <li>
+              <ion-icon
+                name="checkmark-circle"
+                class="experience-icon"
+              ></ion-icon>
+              <div class="sill">
+                <div class="skill-name">PostgreSql</div>
+                <div class="skill-level">Experienced</div>
+              </div>
+            </li>
+            <li>
+              <ion-icon
+                name="checkmark-circle"
+                class="experience-icon"
+              ></ion-icon>
+              <div class="sill">
+                <div class="skill-name">Node JS</div>
+                <div class="skill-level">Experienced</div>
+              </div>
+            </li>
+            <li>
+              <ion-icon
+                name="checkmark-circle"
+                class="experience-icon"
+              ></ion-icon>
+              <div class="sill">
+                <div class="skill-name">Express JS</div>
+                <div class="skill-level">Experienced</div>
+              </div>
+            </li>
+            <li>
+              <ion-icon
+                name="checkmark-circle"
+                class="experience-icon"
+              ></ion-icon>
+              <div class="sill">
+                <div class="skill-name">Git</div>
+                <div class="skill-level">Experienced</div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
     <section class="projects"></section>
     <section class="cta"></section>
 
-    <img src="./src/img/Firefox_Screenshot_2024-03-20T02-04-26.993Z.png" />
+    <img src="./src/img/Firefox_Screenshot_2024-03-20T02-05-49.102Z.png" />
   </body>
 </html>
